@@ -1,16 +1,16 @@
-
+import pic from './img/pic.jpg'
 const HeaderSection = () => {
 
-    return(
-        <div className="px-6 pt-14 lg:px-8">
-        <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-40">
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">We love creators</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.
-            </p>
+    return (
+        <div className="px-6 pt-20 lg:px-8  grid-cols-2  flex justify-evenly items-center">
+            <div className="col-start-1">
+                <img src={pic} className="w-[380px] h-[350px] rounded shadow" />
+            </div>
+            <div className="col-start-2 text-white">
+                <p className='text-4xl'>林則安 Andrew</p><br />
+                <p className='text-3xl'>就讀於國立台中科技大學 資管系</p>
+            </div>
         </div>
-    </div>
     )
 }
 

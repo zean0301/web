@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import Test from './components/Test';
+import React from "react";
+import Router from "./Router";
+
 function App() {
   return (
-    <div className="App">
-      <Test />
+    <div class="font-en">
+      <Router />
     </div>
   );
 }
